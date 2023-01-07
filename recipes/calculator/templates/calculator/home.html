@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+{% for food in menu  %}
+<h4><a href="./{{ food }}/">{{ food }}</a></h4>
+<br>
+{% endfor %}
+</body>
+</html>
